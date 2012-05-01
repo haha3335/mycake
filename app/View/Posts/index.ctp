@@ -163,7 +163,7 @@ if ($this->Session->read('Auth.User.role')=="admin"){
 			
 			echo $this->Form->postLink(
                 'Delete',
-                array('action' => 'delete', $post['User']['id']),
+                array('controller' => 'users','action' => 'delete', $user['User']['id']),
                 array('confirm' => 'Are you sure?','class' => 'label label-important'));
 			
 			

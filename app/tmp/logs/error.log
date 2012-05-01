@@ -3107,3 +3107,31 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 110
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 85
 [main] - APP/webroot/index.php, line 96
 
+2012-05-01 02:40:41 Error: [MissingViewException] View file "C:\xampp\htdocs\mycake\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\mycake\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mycake\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\mycake\app\webroot\index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-01 02:46:37 Error: [MissingViewException] View file "C:\xampp\htdocs\mycake\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\mycake\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mycake\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\mycake\app\webroot\index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-01 02:46:56 Error: [MissingViewException] View file "C:\xampp\htdocs\mycake\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\mycake\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mycake\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\mycake\app\webroot\index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-01 02:47:47 Error: [MissingViewException] View file "C:\xampp\htdocs\mycake\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\mycake\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\mycake\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\xampp\htdocs\mycake\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\mycake\app\webroot\index.php(100): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
